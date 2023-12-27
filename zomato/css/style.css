@@ -1,0 +1,365 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 5px 7rem;
+}
+
+.navbar .log {
+  display: flex;
+  align-items: center;
+}
+
+.navbar .logo img {
+  max-width: 11rem;
+  height: 2.3rem;
+  display: block;
+  cursor: pointer;
+  
+}
+.navbar .logo:hover{
+  background-color: red;
+  padding: 0.7rem;
+  border-radius: 10px;
+} 
+
+.navbar .nav-search {
+  width: 41rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid rgba(137, 132, 132, 0.256);
+  box-shadow: 1px 1px 10px rgb(190, 180, 180);
+  border-radius: 15px;
+  padding: 0 1rem;
+}
+.navbar .nav-search:hover{
+  border: 2px solid rgb(168, 162, 162);
+}
+
+.navbar .nav-search #location {
+  width: 11rem;
+  height: 2.5rem;
+  margin: 0.7rem 0.5rem 0.7rem 1rem;
+  border-radius: 5px;
+  border: 0.1px solid rgba(210, 203, 203, 0.434);
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+.navbar .nav-search #select-loc {
+  height: 25px;
+  color: black;
+  border: none;
+}
+
+.navbar .nav-search #search-food {
+  flex: 1;
+  height: 2.5rem;
+  padding: 0.5rem;
+  border: 1px solid rgba(210, 203, 203, 0.434);
+  font-size: 1rem;
+}
+.navbar .user {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar .user a {
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  color: rgb(132, 125, 125);
+  padding: 1rem;
+}
+
+.navbar .user a:hover {
+  color: rgb(242, 237, 237);
+  transition: all;
+  transform: scale(1.05);
+  background-color: rgb(18, 2, 48);
+  border-radius: 10px;
+  
+}
+
+/* main content */
+
+.top-content {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 1.5rem 3rem;
+  padding: 1rem 8rem;
+}
+
+.top-content .item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.8rem 1.6rem;
+}
+
+.top-content .item img {
+  width: 5vw;
+  margin-right: 1rem;
+  background-color: orange;
+  padding: 0.2 rem;
+  border-radius: 50%;
+  border: 2px solid rgb(200, 184, 184);
+  box-shadow: 1px 1px 19px rgb(155, 151, 151);
+}
+
+.top-content .item img:hover{
+  transition: all;
+  transform: scale(1.23);
+  transition-timing-function: ease-in;
+  transition-timing-function: 0.5s;
+}
+
+.top-content .item a {
+  text-decoration: none;
+  font-size: 1.4rem;
+  margin-top: 0.3rem;
+  color: rgb(214, 89, 89);
+}
+
+hr {
+  border: 2px solid rgba(243, 237, 237, 0.436);
+}
+
+/* section1 */
+
+.main-content {
+  margin: 2rem 1rem;
+}
+
+.section1 {
+  background-color: rgba(220, 214, 214, 0.207);
+  padding: 2rem 7.5rem;
+}
+
+.section1 .food-content {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.section1 .food-content .content {
+  display: flex;
+
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.section1 h2 {
+  margin: 1rem 0 2rem 3.3rem;
+  font-size: 1.9rem;
+  font-weight: 500;
+}
+
+.food-content .content img {
+  border-radius: 50%;
+  width: 10vw;
+}
+.food-content .content img:hover{
+  transition: all;
+  transition-timing-function: ease-in;
+  transition-timing-function: 0.5s;
+  transform: scale(1.05);
+} 
+.food-content .content a {
+  text-decoration: none;
+  color: rgb(89, 84, 84);
+  font-size: 1.4rem;
+  padding: 0.8rem 1rem;
+  margin-top: 0.5rem;
+}
+.food-content .content a:hover{
+  color: black;
+  font-weight: 600;
+} 
+
+.section2 {
+    background-color: rgba(245, 245, 245, 0.83);
+    box-shadow: 1px 1px 40px whitesmoke;
+}
+
+.section2 h2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-left: 11rem;
+    padding-top:20px ;
+}
+.section2 .food {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0rem 10rem;
+
+}
+.section2 .food .dish-item {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0.6rem 0.6rem 2.5rem 0.6rem;
+  margin: 2.5rem 1rem;
+}
+
+.section2 .food .dish-item:hover{
+    background-color: white;
+    border: 1px solid rgb(215, 208, 208);
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px rgb(193, 189, 189);
+}
+
+.section2 .food img {
+  width: 22vw;
+  height: 33vh;
+  border-radius: 5px;
+}
+
+.section2 .food img:hover{
+    transition: all;
+    transform: scale(1.02);
+}
+
+.section2 .food .food-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.food .dish-item .food-btn a {
+  text-decoration: none;
+  font-size: 1.3rem;
+  color: black;
+  font-weight: 500;
+}
+
+.food .dish-item .food-btn button {
+  border: none;
+  background-color: darkgreen;
+  color: white;
+  border-radius: 7px;
+  padding: 0.2rem 0.7rem;
+  margin: 0.8rem 0 0.5rem 0;
+  font-size: 1rem;
+}
+
+.food .dish-item .price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.food .dish-item .price p {
+  color: grey;
+  font-family: "Helvetica", FontAwesome, sans-serif;
+}
+
+/* footer */
+
+.footer{
+  background-color: #232F3E;
+  
+  
+ 
+}
+
+.footer .links{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 1rem;
+
+}
+.links .us{
+  display: flex;
+  flex-direction: column;
+
+
+
+}
+
+.links .us p{
+  font-size: 1rem;
+  color: white;
+  padding: 1rem 0;
+  font-weight: 600;
+
+}
+
+.links .us a{
+  text-decoration: none;
+  color:rgba(255, 255, 255, 0.67);
+  padding: 0.3rem;
+}
+
+.links .us a:hover{
+  text-decoration: underline;
+}
+
+.copyright{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.copyright .useful{
+  display: flex;
+  align-items: center;
+
+
+}
+
+.copyright .useful a{
+  text-decoration: none;
+  color: white;
+  margin: 0.7rem 1rem;
+  text-align: center;
+}
+.copyright .useful a:hover{
+  text-decoration: gray underline;
+}
+.copyright h4{
+  color: white;
+  font-size: 0.8rem;
+  text-align: center;
+  margin-bottom: 1rem ;
+}
+
+.zomato-end{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1rem 6rem ;
+}
+
+.zomato-end h1{
+  color: white;
+  font-weight: bolder;
+  margin-top: 1rem;
+}
+
+.zomato-end .btn-end{
+  border: 1px solid gray;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  background-color: transparent;
+  color: white;
+}
+
+.zomato-end .btn-end:hover{
+  background-color: white;
+  color: black;
+}

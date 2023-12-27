@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Zomato</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <style>
+      #location,
+      #search-food  {
+        font-family: "Helvetica", FontAwesome, sans-serif;
+        font-size: 0.8rem;
+       
+      }
+      button{
+        font-family: "Helvetica", FontAwesome, sans-serif;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="logo">
+          <img src="./images/logo.webp" alt="Zomato" />
+        </div>
+
+        <div class="nav-search">
+          <input type="search" name="seacrh" id="location" placeholder="&#xf3c5 jaipur">
+
+          <select name="select location" id="select-loc">
+            <option value=""></option>
+          </select>
+
+          <input type="search" name="food-item" id="search-food" placeholder=" &#xf002 Search for restaurant , cuisine or a dish">
+        </div>
+        
+
+        <div class="user">
+          <a href="">Log-in</a>
+          <a href="">Sign-up</a>
+        </div>
+      </nav>
+    </header>
+
+    <div class="top-content">
+      <div class="item">
+        <img src="./images/delivery.webp" alt="delivery" />
+
+        <a href="#">Delivery</a>
+      </div>
+      <div class="item">
+        <img
+          src="./images/dining.webp"
+          alt="dining"
+          style="background-color: rgba(128, 128, 128, 0.173)"
+        />
+        <a href="" style="color: rgba(71, 69, 69, 0.752)">Dining out</a>
+      </div>
+      <div class="item">
+        <img
+          src="./images/nightlife.webp"
+          alt="night-life"
+          style="background-color: rgba(128, 128, 128, 0.173)"
+        />
+        <a href="" style="color: rgba(86, 83, 83, 0.725)">Night life</a>
+      </div>
+    </div>
+    <hr />
+    <main class="main-content">
+      <section class="section1">
+        <h2>Inspiration for your first order</h2>
+        <div class="food-content">
+          <div class="content">
+            <img src="./images/pic1.webp" alt="pic" />
+            <a href="">pizza</a>
+          </div>
+          <div class="content">
+            <img src="./images/pic2.webp" alt="pic" />
+            <a href="">Kachori</a>
+          </div>
+
+          <div class="content">
+            <img src="./images/pic3.webp" alt="pic" />
+            <a href="">Sandwich</a>
+          </div>
+
+          <div class="content">
+            <img src="./images/pic4.webp" alt="pic" />
+            <a href="">Cake</a>
+          </div>
+
+          <div class="content">
+            <img src="./images/pic5.webp" alt="pic" />
+            <a href="">Burger</a>
+          </div>
+          <div class="content">
+            <img src="./images/pic6.webp" alt="pic" />
+            <a href="">Dossa</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- section2 -->
+
+      <section class="section1" style="background-color: white">
+        <h2>Inspiration for your first order</h2>
+        <div class="food-content">
+          <div class="content">
+            <img src="./images/pic7.webp" alt="pic" />
+            <a href="">Kanha</a>
+          </div>
+          <div class="content">
+            <img src="./images/pic8.webp" alt="pic" />
+            <a href="">Rominus</a>
+          </div>
+
+          <div class="content">
+            <img src="./images/pic9.webp" alt="pic" />
+            <a href="">Agarwal</a>
+          </div>
+
+          <div class="content">
+            <img src="./images/pic10.webp" alt="pic" />
+            <a href="">Harishankar</a>
+          </div>
+
+          <div class="content">
+            <img src="./images/pic11.webp" alt="pic" />
+            <a href="">McDonals's</a>
+          </div>
+          <div class="content">
+            <img src="./images/pic12.webp" alt="pic" />
+            <a href="">Burgerfarm</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section2">
+        <h2>Best food in jaipur</h2>
+        <div class="food">
+          <div class="dish-item">
+            <img src="./images/img1.webp" alt="" />
+            <div class="food-btn">
+              <a href="">Vaishnavi foods</a>
+              <button>4 &#xf005</button> 
+            </div>
+            <div class="price">
+              <p>Chinese , south indian , fast fo...</p>
+              <p>&#xe1bc 150 for one</p>
+            </div>
+          </div>
+
+          <div class="dish-item">
+            <img src="./images/img12.webp" alt="" />
+            <div class="food-btn">
+              <a href="">Schawal's Restaurant</a>
+              <button>4 &#xf005</button>
+            </div>
+            <div class="price">
+              <p>Chinese , south indian , fast fo...</p>
+              <p>&#xe1bc 250 for one</p>
+            </div>
+          </div>
+
+          <div class="dish-item">
+            <img src="./images/img2.webp" alt="" />
+            <div class="food-btn">
+              <a href="">Noir Coffee House</a>
+              <button>4 &#xf005</button>
+            </div>
+            <div class="price">
+              <p>Chinese , south indian , fast fo...</p>
+              <p>&#xe1bc 300 for one</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section2">
+        <div class="food">
+          <div class="dish-item">
+            <img src="./images/img3.webp" alt="" />
+            <div class="food-btn">
+              <a href="">Shree Agarwal Caterers
+              </a>
+              <button>4 &#xf005</button>
+            </div>
+            <div class="price">
+              <p>Chinese , south indian , fast fo...</p>
+              <p>&#xe1bc 110 for one</p>
+            </div>
+          </div>
+
+          <div class="dish-item">
+            <img src="./images/img4.webp" alt="" />
+            <div class="food-btn">
+              <a href="">Rs.99 Eatery Junction</a>
+              <button>4 &#xf005</button>
+            </div>
+            <div class="price">
+              <p>Chinese , south indian , fast fo...</p>
+              <p>&#xe1bc 99 for one</p>
+            </div>
+          </div>
+
+          <div class="dish-item">
+            <img src="./images/img5.webp" alt="" />
+            <div class="food-btn">
+              <a href="">Ganesh Bhojnalaya</a>
+              <button>4 &#xf005</button>
+            </div>
+            <div class="price">
+              <p>Chinese , south indian , fast fo...</p>
+              <p>&#xe1bc 2000 for one</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section2">
+        <div class="food">
+          <div class="dish-item">
+            <img src="./images/img6.webp" alt="" />
+            <div class="food-btn">
+              <a href="">Kebabs & Curries Company
+              </a>
+              <button>4 &#xf005</button>
+            </div>
+            <div class="price">
+              <p>Chinese , south indian , fast fo...</p>
+              <p>&#xe1bc 890 for one</p>
+            </div>
+          </div>
+
+          <div class="dish-item">
+            <img src="./images/img7.webp" alt="" />
+            <div class="food-btn">
+              <a href="">Kanji foods</a>
+              <button>4 &#xf005</button>
+            </div>
+            <div class="price">
+              <p>Chinese , south indian , fast fo...</p>
+              <p>&#xe1bc 408 for one</p>
+            </div>
+          </div>
+
+          <div class="dish-item">
+            <img src="./images/img8.webp" alt="" />
+            <div class="food-btn">
+              <a href="">Vaishnavi foods</a>
+              <button>4 &#xf005</button>
+            </div>
+            <div class="price">
+              <p>Chinese , south indian , fast fo...</p>
+              <p>&#xe1bc 150 for one</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section2">
+        <div class="food">
+          <div class="dish-item">
+            <img src="./images/img9.webp" alt="" />
+            <div class="food-btn">
+              <a href="">Shyam Rasoi</a>
+              <button>4 &#xf005</button>
+            </div>
+            <div class="price">
+              <p>Chinese , south indian , fast fo...</p>
+              <p>&#xe1bc 970 for one</p>
+            </div>
+          </div>
+
+          <div class="dish-item">
+            <img src="./images/img10.webp" alt="" />
+            <div class="food-btn">
+              <a href="">Swastik Pavitra Bhojnala</a>
+              <button>4 &#xf005</button>
+            </div>
+            <div class="price">
+              <p>Chinese , south indian , fast fo...</p>
+              <p>&#xe1bc 1780 for one</p>
+            </div>
+          </div>
+
+          <div class="dish-item">
+            <img src="./images/img11.webp" alt="" />
+            <div class="food-btn">
+              <a href="">Bakingo</a>
+              <button>4 &#xf005</button>
+            </div>
+            <div class="price">
+              <p>Chinese , south indian , fast fo...</p>
+              <p>&#xe1bc 150 for one</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section2">
+        <div class="food">
+          <div class="dish-item">
+            <img src="./images/img13.webp" alt="" />
+            <div class="food-btn">
+              <a href="">The Busy Beans</a>
+              <button>4 &#xf005</button>
+            </div>
+            <div class="price">
+              <p>Chinese , south indian , fast fo...</p>
+              <p>&#xe1bc 1234 for one</p>
+            </div>
+          </div>
+
+          <div class="dish-item">
+            <img src="./images/img14.webp" alt="" />
+            <div class="food-btn">
+              <a href="">Choudhary Annapurna</a>
+              <button>4 &#xf005</button>
+            </div>
+            <div class="price">
+              <p>Chinese , south indian , fast fo...</p>
+              <p>&#xe1bc 3020 for one</p>
+            </div>
+          </div>
+
+          <div class="dish-item">
+            <img src="./images/img15.webp" alt="" />
+            <div class="food-btn">
+              <a href="">Vaishnavi foods</a>
+              <button>4 &#xf005</button>
+            </div>
+            <div class="price">
+              <p>Chinese , south indian , fast fo...</p>
+              <p>&#xe1bc 150 for one</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+     <!-- footer  -->
+
+     <footer class="footer">
+      <div class="zomato-end">
+        <h1>Zomato</h1>
+        <div class="btn-lan">
+        <button class="btn-end">India</button>
+        <button class="btn-end"> &#xf0ac English</button>
+      </div>
+      </div>
+      <div class="links">
+        <div class="us">
+          <p>Get to Know Us</p>
+          <a href="">About Us</a>
+          <a href="">Careers</a>
+          <a href=""> Press Releases</a>
+          <a href="">Flipkart Science</a>
+        </div>
+        <div class="us">
+          <p>Connect with Us</p>
+          <a href="">Facebook</a>
+          <a href="">Twitter</a>
+          <a href="">Instagram</a>
+        </div>
+        <div class="us">
+          <p>Make Money with Us</p>
+          <a href="">Sell on Flipkart</a>
+          <a href="">Sell under Flipkart Accelerator</a>
+          <a href="">Protect and Build Your Brand</a>
+          <a href="">Flipkart Global Selling</a>
+          <a href="">Become an Affiliate</a>
+         
+        </div>
+
+        <div class="us">
+          <p>Let Us Help You</p>
+          <a href="">COVID-19 and Amazon</a>
+          <a href="">Your Account</a>
+          <a href="">Returns Centre</a>
+          <a href="">100% Purchase Protection</a>
+          <a href="">Amazon App Download </a>
+          <a href="">Help </a>
+        </div>
+      </div>
+
+      <div class="copyright">
+        <div class="useful">
+          <a href="">Conditions of Use & Sale</a>
+          <a href="">Privacy Notice</a>
+          <a href="">Interest-Based Ads</a>
+        </div>
+       <h4> © 1996-2023, Flipkart.com, Inc. or its affiliates</h4>
+      </div>
+    </footer>
+  </body>
+</html>
